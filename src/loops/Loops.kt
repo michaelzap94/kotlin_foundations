@@ -35,5 +35,12 @@ fun main(args: Array<String>) {
         println("$n is prime")
     }
     //Note that there must be no space between continue/break and @.
+    //=========================================================================================================================
+    //write a program that calculates the sum of all numbers from 100 to 100,000 and prints out the result
+    var counter:Int = 0
+    for (i in 100 until 100000) {
+        counter += i
+    }
+    println(counter)
 
 }

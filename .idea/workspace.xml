@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c8db6b68-7651-4cb0-872c-143c90ef0806" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/ArraysLists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/collections/ArraysLists.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/loops/Loops.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/loops/Loops.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/loops/Loops.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+            <state relative-caret-position="632">
+              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -105,7 +104,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599667254542" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599667568806" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -205,7 +204,7 @@
       <workItem from="1599491430387" duration="2649000" />
       <workItem from="1599502882134" duration="110000" />
       <workItem from="1599503029435" duration="1333000" />
-      <workItem from="1599664438817" duration="1528000" />
+      <workItem from="1599664438817" duration="1831000" />
     </task>
     <task id="LOCAL-00001" summary="some basics">
       <created>1599664542256</created>
@@ -214,11 +213,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599664542256</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basics loops">
+      <created>1599667275596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599667275596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9524000" />
+    <option name="totallyTimeSpent" value="9827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -261,7 +267,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="some basics" />
+    <MESSAGE value="basics loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="basics loops" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Conditionals.java" />
@@ -299,8 +306,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/loops/Loops.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        <state relative-caret-position="632">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
         </state>
       </provider>
     </entry>
