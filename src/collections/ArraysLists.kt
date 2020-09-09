@@ -34,5 +34,8 @@ fun main(args: Array<String>) {
 
     val subList = arrayList.subList(1,2)//start, end but not including-> same as JS slice
     println(subList)
+
+    //===============================================================================================
+    val numbers3 = (0..9).toList()
 }
 
