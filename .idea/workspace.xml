@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8db6b68-7651-4cb0-872c-143c90ef0806" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/functions/Functions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/loops/Loops.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/loops/Loops.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collections/ArraysLists.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/loops/Loops.kt">
+        <entry file="file://$PROJECT_DIR$/src/functions/Functions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+            <state relative-caret-position="399">
+              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -56,6 +47,7 @@
         <option value="$PROJECT_DIR$/src/conditionals/Conditionals.kt" />
         <option value="$PROJECT_DIR$/src/collections/ArraysLists.kt" />
         <option value="$PROJECT_DIR$/src/loops/Loops.kt" />
+        <option value="$PROJECT_DIR$/src/functions/Functions.kt" />
       </list>
     </option>
   </component>
@@ -86,7 +78,7 @@
               <item name="Basics" type="b2602c69:ProjectViewProjectNode" />
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Basics" type="b2602c69:ProjectViewProjectNode" />
@@ -104,7 +96,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599667568806" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599670248484" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -127,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.loops.LoopsKt">
+  <component name="RunManager" selected="Kotlin.functions.FunctionsKt">
     <configuration name="HelloWorldKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Basics" />
       <option name="VM_PARAMETERS" />
@@ -167,6 +159,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="functions.FunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="Basics" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="functions.FunctionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="loops.LoopsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Basics" />
       <option name="VM_PARAMETERS" />
@@ -182,6 +187,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.functions.FunctionsKt" />
         <item itemvalue="Kotlin.loops.LoopsKt" />
         <item itemvalue="Kotlin.HelloWorldKt" />
         <item itemvalue="Kotlin.collections.ArraysListsKt" />
@@ -204,7 +210,7 @@
       <workItem from="1599491430387" duration="2649000" />
       <workItem from="1599502882134" duration="110000" />
       <workItem from="1599503029435" duration="1333000" />
-      <workItem from="1599664438817" duration="1831000" />
+      <workItem from="1599664438817" duration="4551000" />
     </task>
     <task id="LOCAL-00001" summary="some basics">
       <created>1599664542256</created>
@@ -220,11 +226,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599667275596</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="basics of loops">
+      <created>1599667599827</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599667599827</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9827000" />
+    <option name="totallyTimeSpent" value="12547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -268,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some basics" />
     <MESSAGE value="basics loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="basics loops" />
+    <MESSAGE value="basics of loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="basics of loops" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Conditionals.java" />
@@ -306,8 +320,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/loops/Loops.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
+        <state relative-caret-position="731">
           <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/functions/Functions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
         </state>
       </provider>
     </entry>
