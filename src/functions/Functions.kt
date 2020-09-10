@@ -49,6 +49,20 @@ fun reverse(list: List<Int>): List<Int> {
     return result
 }
 
+//-------------------------------------------------------------------------
+//Nothing type
+//Nothing type can be used as a return type for a function that always throws an exception.
+// When you call such a function, the compiler uses the information that it throws an exception.
+fun failWithWrongAge(age: Int?):Nothing    {
+    throw IllegalArgumentException("Wrong age: $age")
+}
+
+fun checkAge(age: Int?) {
+    if (age == null || age !in 0..150) failWithWrongAge(age)
+    println("Congrats! Next year you'll be ${age + 1}.")
+}
+//-------------------------------------------------------------------------
+
 fun main(args: Array<String>) {
     _printDate()
     println(returnLength("any"))//3
