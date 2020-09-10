@@ -54,4 +54,17 @@ fun main(args: Array<String>) {
         }
     }
     println(position)//anything
+
+    //NULLABLES:======================================================================
+    class PersonalInfo(val email: String?)
+    class Client(val personalInfo: PersonalInfo?)
+    fun sendMessageToClient( client: Client?, message: String?) {
+        //if client is not null -> if client.personalInfo is not null -> get the email from client.personalInfo.email
+        val email = client?.personalInfo?.email
+        if (email != null && message != null) {
+            //do something
+        }
+    }
+
+
 }
