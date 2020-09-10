@@ -57,7 +57,7 @@ fun failWithWrongAge(age: Int?):Nothing    {
     throw IllegalArgumentException("Wrong age: $age")
 }
 
-fun checkAge(age: Int?) {
+fun checkAge(age: Int? = 0) {//it can be null, but if not provided it will be 0
     if (age == null || age !in 0..150) failWithWrongAge(age)
     println("Congrats! Next year you'll be ${age + 1}.")
 }
@@ -68,4 +68,6 @@ fun main(args: Array<String>) {
     println(returnLength("any"))//3
     printHello(null)
     println(reverse((1..10).toList<Int>()))
+    checkAge()
+    checkAge(null)
 }
