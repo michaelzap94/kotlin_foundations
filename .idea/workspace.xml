@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8db6b68-7651-4cb0-872c-143c90ef0806" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/oop/DataClass.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/Inheritance.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Inheritance.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +35,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/oop/Inheritance.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/oop/DataClass.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="139" selection-start-line="27" selection-start-column="139" selection-end-line="27" selection-end-column="139" />
             </state>
           </provider>
         </entry>
@@ -71,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/functions/Functions.kt" />
         <option value="$PROJECT_DIR$/src/oop/Interfaces.kt" />
         <option value="$PROJECT_DIR$/src/oop/Inheritance.kt" />
+        <option value="$PROJECT_DIR$/src/oop/DataClass.kt" />
       </list>
     </option>
   </component>
@@ -127,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599817093167" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599817909477" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -246,7 +256,7 @@
       <workItem from="1599720176755" duration="919000" />
       <workItem from="1599727996335" duration="2001000" />
       <workItem from="1599770119173" duration="5333000" />
-      <workItem from="1599816021197" duration="1055000" />
+      <workItem from="1599816021197" duration="1876000" />
     </task>
     <task id="LOCAL-00001" summary="some basics">
       <created>1599664542256</created>
@@ -311,11 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1599816160139</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="interfaces advance">
+      <created>1599817195459</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599817195459</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22547000" />
+    <option name="totallyTimeSpent" value="23368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -330,7 +347,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22643554" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22643554" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -367,7 +384,8 @@
     <MESSAGE value="basic classes" />
     <MESSAGE value="abstract and open" />
     <MESSAGE value="interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="interfaces" />
+    <MESSAGE value="interfaces advance" />
+    <option name="LAST_COMMIT_MESSAGE" value="interfaces advance" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Conditionals.java" />
@@ -443,6 +461,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/DataClass.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="139" selection-start-line="27" selection-start-column="139" selection-end-line="27" selection-end-column="139" />
         </state>
       </provider>
     </entry>
