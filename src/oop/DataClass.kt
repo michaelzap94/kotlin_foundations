@@ -1,5 +1,5 @@
 package oop
-//Data classes are classes whose main purpose is to hold data
+//Data classes are classes whose main purpose is to hold data, they require "data" and all its parameters to have "val" or "var"
 //Data classes cannot be abstract, open, sealed or inner;
 //They automatically implement the toString(),equals()/hashCode(),copy(newValueForSomeProperty="value") method for you, so no need to implement it
 //You can compare 2 data classes by using c1.equals(c2)
