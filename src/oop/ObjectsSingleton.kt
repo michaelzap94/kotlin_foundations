@@ -7,7 +7,7 @@ package oop
 //However, you can have a init method for some initialization
 object Cache {
     val someproperty = "any"
-    fun anyFunction(): String {return "anything"}
+    fun anyFunctionInAnObject(): String {return "anything"}
     init {
         println("init complete")
     }
